@@ -91,7 +91,7 @@ font-family: "Helvetica Neue",Helvetica,Verdana,Arial,sans-serif;
 <body>
     <?php include "navbar.php"?>
 <div class="the-wrap">
-    <h1>Login below</h1>
+    <h1>Seller Login</h1>
     <form>
         <div class="input-wrap">
         <input id="the-input-email"type="email" name="email">
@@ -99,7 +99,7 @@ font-family: "Helvetica Neue",Helvetica,Verdana,Arial,sans-serif;
         <input id="the-input-password"type="password" name="pass">
         <br>
         <div class="submit-wrap">
-        <a href="newsearch.php"><input id="the-submit" type="button" value="Login"></a>
+        <a href="newcampaign.php"><input id="the-submit" type="button" value="Login"></a>
         
         </div>
         </div>

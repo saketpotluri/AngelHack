@@ -132,6 +132,12 @@ font-family: 'Helvetica', 'Helvetica-neue';
       .space{
         height: 20px;
       }
+      .submit[type="button"]{
+        
+      }
+      a{
+        text-decoration: none;
+      }
     </style>
 </head>
 <body style="margin: 0px; padding: 0px; background-color: #F2F2F2; ">
@@ -154,7 +160,7 @@ font-family: 'Helvetica', 'Helvetica-neue';
                 
                 <div class="submit-wrap">
                     
-                <input class="submit" type="submit" value="Sign Up">
+                <a href="login.php"><input class="submit" type="button" value="Sign Up"></a>
                 </div>
                 
             </div>
